@@ -37,8 +37,9 @@
           onclick="return onLinkClick(this)"
           >Skills</a
         >
-        <a class="header-element">Portfolio</a>
-        <a class="header-element">Contacts</a>
+        <a class="header-element" 
+        href="#portfolio" onclick="return onLinkClick(this)" >Portfolio</a>
+        <a class="header-element" href="#contacts" onclick="return onLinkClick(this)">Contacts</a>
       </div>
     </div>
     <div class="">
@@ -371,7 +372,7 @@
           </div>
         </div>
       </div>
-      <div class="portfolio-content">
+      <div class="portfolio-content" id="portfolio">
         <div class="first-block">
           <h2 class="portfolio-content-header">Portfolio</h2>
           <img src="./img/Слой 8.png" class="png8" />
@@ -387,17 +388,25 @@
           <img src="./img/reebok_web (1).png" class="reebok_png2" />
           <span class="block-footerheader">Braun Landing Page - Concept</span>
         </div>
-        <div class="footer-block">
-          <h2 class="footer-block-title">Contacts</h2>
-          <p class="footer-block-subtitle">
-            Want to know more or just chat? <br />
-            You are welcome!
-          </p>
-          <button class="footer-block-button">Send message</button>
-          <!-- <img src="./img/chip bg.png" /> -->
-          <!-- <img src="./img/Group 12 (1).png" /> -->
-          <span>Like me on LinkedIn, Instagram, Behance, Dribble</span>
+      </div>
+
+      <div class="footer-block" id="contacts">
+        <h2 class="footer-block-title">Contacts</h2>
+        <p class="footer-block-subtitle">
+          Want to know more or just chat? <br />
+          You are welcome!
+        </p>
+        <button class="footer-block-button">Send message</button>
+        <div class="social-icon-container">
+          <img class="social-icon" src="./img/li-icon.svg" />
+          <img class="social-icon" src="./img/in-icon.svg" />
+          <img class="social-icon" src="./img/be-icon.svg" />
+          <img class="social-icon" src="./img/dr-icon.svg" />
         </div>
+        <span class="social-description"
+          >Like me on<br />
+          LinkedIn, Instagram, Behance, Dribble</span
+        >
       </div>
     </div>
   </body>

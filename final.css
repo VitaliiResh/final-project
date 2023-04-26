@@ -202,38 +202,40 @@ body {
 .portfolio-content {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background: #f6f6f6;
 }
 .first-block {
   display: flex;
   flex-direction: column;
   padding: 0;
-  background: #f6f6f6;
+  
 }
 .second-block {
   display: flex;
   flex-direction: column;
-  background: #f6f6f6;
+  
 }
 .third-block {
   display: flex;
   flex-direction: column;
-  background: #f6f6f6;
+  
 }
 
 .png8 {
   width: 936px;
   height: 510px;
-  margin-left: 257px;
+ 
 }
 .reebok_png {
   width: 936px;
   height: 522px;
-  margin-left: 257px;
+  
 }
 .reebok_png2 {
   width: 936px;
   height: 522px;
-  margin-left: 252px;
+ 
 }
 .portfolio-content-header {
   display: flex;
@@ -297,4 +299,27 @@ font-size: 18px;
 line-height: 22px;
 text-align: center;
 color: #FFFFFF;
+margin-bottom: 86px;
+}
+.social-icon{
+  width:40px;
+  height:40px;
+  margin-right: 60px;
+}
+.social-icon:last-child{
+  margin: 0;
+}
+.social-icon-container{
+  display: flex;
+  margin-bottom: 46px;
+ 
+}
+.social-description{
+  font-family: 'Gilroy-Medium';
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+
+color: #828282;
+margin: 123px;
 }
